@@ -1,0 +1,14 @@
+{
+  "name": "cashflow-forecast-accuracy-loop",
+  "displayName": "Cashflow forecast and accuracy loop",
+  "description": "13-week rolling cashflow forecast that scores every past forecast against actual cash each week and ranks what to fix. Accounting-system independent and read-only.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alfen Consulting ApS",
+    "url": "https://github.com/AlfenConsulting"
+  },
+  "homepage": "https://github.com/AlfenConsulting/cashflow-forecast-accuracy-loop",
+  "repository": "https://github.com/AlfenConsulting/cashflow-forecast-accuracy-loop",
+  "license": "MIT",
+  "keywords": ["cashflow", "forecast", "finance", "fpa", "forecast-accuracy"]
+}

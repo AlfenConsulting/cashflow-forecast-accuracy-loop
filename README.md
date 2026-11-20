@@ -20,7 +20,12 @@ Most small companies forecast once and never check. This skill makes the check a
 
 ## Install
 
-Copy the `cashflow-forecast-accuracy-loop` folder into your Claude skills directory, or upload `SKILL.md` where your Claude app accepts skills.
+This repository is a Claude plugin with one skill, in `skills/cashflow-forecast-accuracy-loop/SKILL.md`.
+
+- Claude Code: `/plugin install cashflow-forecast-accuracy-loop --marketplace AlfenConsulting/cashflow-forecast-accuracy-loop`
+- Claude apps: zip the `skills/cashflow-forecast-accuracy-loop` folder and upload it where your Claude app accepts skills.
+
+The skill sends nothing anywhere and fetches nothing from the web. It only reads the accounting data and notes you give it access to.
 
 ## Adapt it
 

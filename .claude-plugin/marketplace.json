@@ -1,0 +1,13 @@
+{
+  "name": "alfen-consulting",
+  "owner": {
+    "name": "Alfen Consulting ApS"
+  },
+  "plugins": [
+    {
+      "name": "cashflow-forecast-accuracy-loop",
+      "source": "./",
+      "description": "13-week rolling cashflow forecast that scores every past forecast against actual cash each week and ranks what to fix."
+    }
+  ]
+}
