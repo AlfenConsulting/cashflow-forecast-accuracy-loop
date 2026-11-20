@@ -18,6 +18,8 @@ Most small companies forecast once and never check. This skill makes the check a
 - Read access to your accounting system through a connector or tools of your choice. The method is system-independent.
 - Two files or documents you choose, one for the forecast log and one for your confirmed assumptions. The skill uses only the places you name. It does not use Claude's memory or chat history.
 
+Privacy: see [Privacy](#privacy). Security: see [SECURITY.md](SECURITY.md).
+
 ## Install
 
 This repository is a Claude plugin with one skill, in `skills/cashflow-forecast-accuracy-loop/SKILL.md`.

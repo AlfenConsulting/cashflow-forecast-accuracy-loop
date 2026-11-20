@@ -10,5 +10,12 @@
   "homepage": "https://github.com/AlfenConsulting/cashflow-forecast-accuracy-loop",
   "repository": "https://github.com/AlfenConsulting/cashflow-forecast-accuracy-loop",
   "license": "MIT",
-  "keywords": ["cashflow", "forecast", "finance", "fpa", "forecast-accuracy"]
+  "privacyPolicyUrl": "https://github.com/AlfenConsulting/cashflow-forecast-accuracy-loop#privacy",
+  "keywords": [
+    "cashflow",
+    "forecast",
+    "finance",
+    "fpa",
+    "forecast-accuracy"
+  ]
 }
