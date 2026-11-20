@@ -3,6 +3,9 @@
   "owner": {
     "name": "Alfen Consulting ApS"
   },
+  "metadata": {
+    "description": "Claude plugins published by Alfen Consulting ApS, a finance and executive consulting practice in Denmark. Practical finance routines: forecasting, cash visibility and the checks that keep them honest."
+  },
   "plugins": [
     {
       "name": "cashflow-forecast-accuracy-loop",
