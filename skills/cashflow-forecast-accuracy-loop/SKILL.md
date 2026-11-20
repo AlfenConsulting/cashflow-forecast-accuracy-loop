@@ -19,7 +19,7 @@ Two modes share one method.
 Replace these with whatever your setup offers. The method does not depend on a particular accounting product.
 
 - Read access to the accounting system: bank and card balances, open sales invoices, open supplier invoices, VAT position, payroll runs.
-- A place to keep a forecast log (one fenced JSON snapshot per run, append only) and a confirmed assumptions note.
+- Two files or documents that the user names: a forecast log (one fenced JSON snapshot per run, append only) and a confirmed assumptions note. Keep both only where the user tells you to. Never use Claude's memory, chat history or past conversations as the store, and never build a profile of the user from conversations.
 - A target accuracy (default 90 percent).
 
 ## Step 0: Confirm which company the numbers come from
@@ -28,6 +28,7 @@ Before pulling any figure, confirm that every call resolves to the company you m
 
 ## Step 1: Read the confirmed assumptions and the log
 
+- If the user has not said where the log and the assumptions note live, ask (interactive). In unattended mode, do not pick a place yourself: run without them, list the missing location as an open item, and do not save.
 - Read the assumptions note. It holds forward revenue, billing cadence, payment timing, tax and payroll conventions the owner has already confirmed. Apply them instead of asking again.
 - Read the forecast log so this run can be compared with earlier ones.
 - If the note lacks any answer from the setup questions below, ask them (interactive) or carry them as open (unattended).
